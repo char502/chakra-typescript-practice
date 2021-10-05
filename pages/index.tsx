@@ -3,6 +3,10 @@ import React from 'react';
 import Cart from '../src/sections/cart';
 import Details from '../src/sections/details';
 
+
+// Built from the following tutorial
+// https://egghead.io/lessons/react-override-the-built-in-component-s-styles-in-chakra-ui
+
 const IndexPage = () => (
   // the container component by default has a padding of 16px which don't want so turn it off
   // Container component to keep content contained and centered

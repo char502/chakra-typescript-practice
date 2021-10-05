@@ -30,7 +30,7 @@ const Cart = () => {
       <VStack alignItems='flex-start' spacing={3}>
         <Heading size='2xl'>Your Cart</Heading>
         <Text>
-          If the prisce is too hard on your eyes,{' '}
+          If the price is too hard on your eyes,{' '}
           <Button onClick={toggleColorMode} variant='link' colorScheme='black'>
             try changing the theme
           </Button>
@@ -59,21 +59,21 @@ const Cart = () => {
       <VStack spacing={4} alignItems='stretch' w='full'>
         <HStack justifyContent='space-between'>
           <Text color={secondaryTextColor}>Subtotal</Text>
-          <Heading size='sm'>$119.00</Heading>
+          <Heading size='sm'>£119.00</Heading>
         </HStack>
         <HStack justifyContent='space-between'>
           <Text color={secondaryTextColor}>Shipping</Text>
-          <Heading size='sm'>$19.99</Heading>
+          <Heading size='sm'>£19.99</Heading>
         </HStack>
         <HStack justifyContent='space-between'>
           <Text color={secondaryTextColor}>Taxes (estimated)</Text>
-          <Heading size='sm'>$23.80</Heading>
+          <Heading size='sm'>£23.80</Heading>
         </HStack>
       </VStack>
       <Divider />
       <HStack justifyContent='space-between' w='full'>
         <Text color={secondaryTextColor}>Total</Text>
-        <Heading size='lg'>$162.79</Heading>
+        <Heading size='lg'>£162.79</Heading>
       </HStack>
     </VStack>
   );
